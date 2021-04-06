@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color:rgba(255, 99, 71, 0.5);
+}
+.Team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	flex-wrap: wrap;
+	position: relative;
+	margin-left: 340px;
+	top:-400px;
+
+}
+.Team .f1{
+	background: green;
+	margin-bottom: 50px;
+	margin: 5px;
+	width: 250px;
+	height: 190px;
+	position: relative;
+	border-radius: 20px;
+}
+.Team .f1 .img{
+	width: 100px;
+	height: 100px;
+	border-radius:100%;
+}
+.Team .f1 .img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 80px;
+	position: absolute;
+	padding: 5px;
+	right: 80px;
+
+}
+.Group{
+	position:relative;
+	margin-left: 100px;
+	line-height: 70px;
+}
+.Group a{
+	text-decoration: none;
+    color: black;
+}
+.Group li{
+	list-style-type: none;
+}
+.Title{
+	position: relative;
+	margin-left: 350px;
+	top: -400px;
+	font-size: 30px;
+}
+.Title p{
+	position: absolute;
+	top:15px;
+	font-size: 20px;
+	margin-left: 590px;
+}
+.Group button{
+	width: 70px;
+	height: 30px;
+	color: white;
+	border-radius: 9px;
+	background-color: green;
+}
+h2{
+	text-decoration: underline;
+	font-family: monospace;
+	font-size:30px;
+    text-decoration-color: green;
+}
+ input{
+ 	border: 1px solid gray;
+ 	border-radius: 10px;
+ 	padding: 5px;
+ }
+ label{
+ 	width: 240px;
+ 	display:inline-block;
+ 	font-family: serif;
+
+ }
+h1{
+	font-family: 'Brush Script MT', cursive;
+}
